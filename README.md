@@ -394,6 +394,7 @@ in the OpenLANE shell.
 - This is the result displayed. As we can see the '/picorv32a.placement.def' file is read.
 
 ![7](https://github.com/Akarsh-Hegde/pes_pd/assets/79705687/bd8633a1-26cd-4675-82cc-003109ddfaef)
+![8](https://github.com/Akarsh-Hegde/pes_pd/assets/79705687/5d6958f5-7cf1-4e28-aedf-d1980c3cf831)
 
 
 - We move one directory up from the 'floorplan' folder using
@@ -585,11 +586,10 @@ The design rules used by Magic's design rule checker come entirely from the tech
 
 SKY130 pdk
 SKY130 is a mature 180nm-130nm hybrid technology developed by Cypress Semiconductor that has been used for many production parts. SKY130 is now available as a foundry technology through SkyWater Technology Foundry.
+![9](https://github.com/Akarsh-Hegde/pes_pd/assets/79705687/51392bad-4e77-4ed0-b34b-f421ac63775a)
 
-![2](https://github.com/vaishbv/pes_pd/assets/79531808/258ca773-bbc2-43e0-a67b-6cd16155b57b)
+![10](https://github.com/Akarsh-Hegde/pes_pd/assets/79705687/f636b26d-09b6-452f-ad13-a147c19a64e1)
 
-
-![3](https://github.com/vaishbv/pes_pd/assets/79531808/3daea58e-3efa-40d0-8197-6b9ca825cdc1)
 
 To open the software we type
 ```
@@ -736,10 +736,9 @@ lef write
 
 We copy the lef file created and the sky130 library that to the src folder of picorv32a folder.
 
-![4](https://github.com/vaishbv/pes_pd/assets/79531808/301bf668-e7f4-433a-82de-b4c23cb2eccf)
+![11](https://github.com/Akarsh-Hegde/pes_pd/assets/79705687/64d8d1bf-94bf-47a7-9f44-8359a6af4897)
 
-![5](https://github.com/vaishbv/pes_pd/assets/79531808/a8d5ff2b-8a75-42ed-b622-b5d8d357cb98)
-
+![12](https://github.com/Akarsh-Hegde/pes_pd/assets/79705687/b5e7c94d-26fc-4d27-a19c-79049deb9499)
 
 
 
