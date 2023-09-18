@@ -809,7 +809,8 @@ run_placement
 
 On zooming in 
 
-![sky130](https://github.com/vaishbv/pes_pd/assets/79531808/0e3f6413-d1b9-4b2c-8bce-c6d9fe9a3401)
+
+![sky130A](https://github.com/Akarsh-Hegde/pes_pd/assets/79705687/320c4466-aca6-4e1a-8987-b09ce659e7ce)
 
 
 
