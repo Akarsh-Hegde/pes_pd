@@ -218,13 +218,15 @@ Now when we  type the ```docker``` command a shell opens .
 In the shell we type ```./flow.tcl -interactive```
 
 
-![1](https://github.com/vaishbv/pes_pd/assets/79531808/c09bb69c-ec71-406b-b337-340701cb5fbd)
+![1](https://github.com/Akarsh-Hegde/pes_pd/assets/79705687/51964cf6-0369-4184-b581-77069599e655)
+
 
 
 
 Then we type ```package require openlane 0.9``` to import all the packages 
 
-![2](https://github.com/vaishbv/pes_pd/assets/79531808/57a0137f-f71c-4215-aef0-fb9d3c65c275)
+
+![2](https://github.com/Akarsh-Hegde/pes_pd/assets/79705687/734402e8-f209-4d43-86a1-b260f6a8cecb)
 
 
 
@@ -233,13 +235,15 @@ Now for the design setup stage, we will be working on picorv32a design.
 ```
 prep -design picorv32a
 ```
-![8](https://github.com/vaishbv/pes_pd/assets/79531808/226968ba-f1d2-4bcb-915f-93316a8e2ae1)
+
+![3](https://github.com/Akarsh-Hegde/pes_pd/assets/79705687/5700b79c-86f5-477b-96ba-d6127dd4327e)
 
 
 
 After preparing the design, we can see that a new 'runs' folder is created.
 
-![4](https://github.com/vaishbv/pes_pd/assets/79531808/3970283a-98ec-475a-9c8b-496581a6644c)
+
+![4](https://github.com/Akarsh-Hegde/pes_pd/assets/79705687/f5585f14-6b6a-4bf8-8b00-5e55b95d5cd9)
 
 
 
@@ -260,10 +264,8 @@ Flop ratio = 1613/14876 = 0.108
 10.8% of the cells in our design are flip flops
 
 Netlist is generated in the runs folder 
+![5](https://github.com/Akarsh-Hegde/pes_pd/assets/79705687/aaa034c6-b547-4973-a696-8f08e93c63e4)
 
-![5](https://github.com/vaishbv/pes_pd/assets/79531808/bf5a32e9-7db5-4479-9c72-be6823d07a68)
-![6](https://github.com/vaishbv/pes_pd/assets/79531808/9b538986-c431-40ce-a49a-e52a217ff89e)
-![7](https://github.com/vaishbv/pes_pd/assets/79531808/05e37000-33dd-4452-b623-f1dd4bd6a15b)
 
 # Day 2
 ## Chip Floor Planning Considerations
@@ -328,12 +330,13 @@ run_floorplan
 ```
 in the OpenLANE shell.
 
-![1](https://github.com/vaishbv/pes_pd/assets/79531808/dd441eda-bea5-4b73-a106-41c54d82b74d)
+![6](https://github.com/Akarsh-Hegde/pes_pd/assets/79705687/75061351-9917-420a-86b5-0966989afcc3)
+
 
 
 - To open the Floorplan we go to the required directory that is
 ```
-vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/11-09_15-36/results/floorplan
+vsduser@akarsh_hegde:~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/11-09_15-36/results/floorplan
 ```
 using the ```cd``` command.
 
@@ -390,7 +393,8 @@ in the OpenLANE shell.
 ![image](https://github.com/AniruddhaN2203/pes_pd/assets/142299140/56832e08-c84e-4c78-8a24-73e1b9bdb05f)
 - This is the result displayed. As we can see the '/picorv32a.placement.def' file is read.
 
-![2](https://github.com/vaishbv/pes_pd/assets/79531808/da01891d-37c6-4902-9975-57b2680e563c)
+![7](https://github.com/Akarsh-Hegde/pes_pd/assets/79705687/bd8633a1-26cd-4675-82cc-003109ddfaef)
+
 
 - We move one directory up from the 'floorplan' folder using
 ```
