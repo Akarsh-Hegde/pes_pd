@@ -559,7 +559,8 @@ SPICE file
 
 **NGPSICE**
 
-![11](https://github.com/vaishbv/pes_pd/assets/79531808/06189e6f-28bc-4690-8878-606b8bef5b91)
+![WhatsApp Image 2023-09-19 at 11 08 13 AM](https://github.com/Akarsh-Hegde/pes_pd/assets/79705687/912d5a32-2efa-4de2-81d1-e6fa5c24cba2)
+
 
 
 Next we type the command 
